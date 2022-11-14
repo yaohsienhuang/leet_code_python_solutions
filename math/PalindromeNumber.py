@@ -27,7 +27,7 @@ class Solution:
         return str(x)[::-1] == str(x)
 
 if __name__ == '__main__':
-    answer=Solution().isPalindrome_shorten(
+    answer=Solution().isPalindrome(
         x=121,
     )
     print(answer)
