@@ -8,6 +8,7 @@ class Solution:
     '''
     dict={'I' : 1,'V' : 5,'X' : 10,'L' : 50,'C' : 100,'D' : 500,'M' : 1000}
     replace_dict={"IV":"IIII","IX": "VIIII","XL": "XXXX","XC":"LXXXX","CD":"CCCC","CM":"DCCCC"}
+    
     def romanToInt(self, s: str) -> int:
         '''
         Runtime: 93 ms, faster than 57.58% of Python3 online submissions for Roman to Integer.
@@ -19,7 +20,7 @@ class Solution:
     
     def romanToInt_loopSum(self, s: str) -> int:
         '''
-        Runtime: 83 ms, faster than 69.69% of Python3 online submissions for Roman to Integer.
+        2.Runtime: 83 ms, faster than 69.69% of Python3 online submissions for Roman to Integer.
         '''
         for key,value in self.replace_dict.items():
             s=s.replace(key,value)
