@@ -9,18 +9,30 @@ class Solution:
     '''
     def removeDuplicates(self, nums: List[int]) -> int:
         '''
-        Runtime: 100 ms, faster than 85.84% of Python3 online submissions for Remove Duplicates from Sorted Array.
+        Runtime: 91 ms, faster than 92.98% of Python3 online submissions for Remove Duplicates from Sorted Array.
         '''
-        left = 1
+        k = 1
         for i in range(1,len(nums)):
             if nums[i] != nums[i-1]:
-                nums[left] = nums[i]
-                left += 1
-        return left
+                nums[k] = nums[i]
+                k += 1
+        return k
+
+    def removeDuplicates2(self, nums: List[int]) -> int:
+        '''
+        Runtime: 208 ms, faster than 42.25% of Python3 online submissions for Remove Duplicates from Sorted Array.
+        '''
+        k = 1
+        for i in range(1,len(nums)):
+            if nums[i] == nums[i-1]:
+                continue
+            nums[k] = nums[i]
+            k += 1
+        return k
                 
 
 if __name__ == '__main__':
-    answer=Solution().removeDuplicates(
+    answer=Solution().removeDuplicates2(
         nums=[0,0,1,1,1,2,2,3,3,4],
     )
     print(answer)
