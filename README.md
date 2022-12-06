@@ -16,12 +16,12 @@
 - [ ] Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
 - [ ] 3Sum - https://leetcode.com/problems/3sum/
 - [ ] Container With Most Water - https://leetcode.com/problems/container-with-most-water/
-- [ ] 'Extra' Add Two Numbers
-- [ ] 'Extra' Contains Duplicate
-- [ ] 'Extra' Remove Duplicates From Sorted Array
-- [ ] 'Extra' Remove Element
-- [ ] 'Extra' Search Insert Position
-- [ ] 'Extra' two Sum
+- [x] 'Extra' Add Two Numbers
+- [x] 'Extra' Contains Duplicate
+- [x] 'Extra' Remove Duplicates From Sorted Array
+- [x] 'Extra' Remove Element
+- [x] 'Extra' Search Insert Position
+- [x] 'Extra' two Sum
 ---
 
 ### Binary
