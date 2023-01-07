@@ -41,7 +41,6 @@ class Solution:
 
         return nums[low]
 
-
 if __name__ == '__main__':
     answer = Solution().findMin_binary2(
         # nums = [3,4,5,1,2]

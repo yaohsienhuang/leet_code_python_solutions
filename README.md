@@ -26,7 +26,7 @@
 
 ### Binary
 
-- [ ] Sum of Two Integers - https://leetcode.com/problems/sum-of-two-integers/
+- [x] Sum of Two Integers - https://leetcode.com/problems/sum-of-two-integers/
 - [ ] Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/
 - [ ] Counting Bits - https://leetcode.com/problems/counting-bits/
 - [ ] Missing Number - https://leetcode.com/problems/missing-number/
@@ -98,7 +98,7 @@
 
 ### String
 
-- [ ] Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- [x] Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/
 - [ ] Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/
 - [ ] Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/
 - [ ] Valid Anagram - https://leetcode.com/problems/valid-anagram/
